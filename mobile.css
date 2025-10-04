@@ -1,0 +1,24 @@
+/* Mobile overrides only - fixes merged boxes and responsive layout */
+@media (max-width: 500px) {
+    #main_grid1 {
+        max-width: 95%;        /* take almost full width */
+        gap: 3px;              /* smaller gaps */
+        justify-content: center;
+    }
+
+    .playing_box {
+        width: 18%;             /* flexible width so 5 boxes fit per row */
+        height: 40px;           /* keep height readable */
+        font-size: 0.8rem;      /* adjust text size */
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .slide {
+        font-size: 0.9rem;
+        margin-left: 0;
+        width: 95%;
+    }
+}
